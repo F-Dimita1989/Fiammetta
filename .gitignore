@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+.venv/
+
+# Build
+dist/
+dist-ssr/
+
+# Models (download via scripts/dl_model.py or Ollama)
+backend/models/*.gguf
+
+# Runtime data
+backend/qdrant_db/
+backend/data/
+backend/output/
+*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
